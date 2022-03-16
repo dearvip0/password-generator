@@ -1,0 +1,33 @@
+.password-settings {
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    background-color: #ffffff;
+    max-width: 800px;
+    margin: -10px auto 15px;
+    padding: 25px;
+}
+
+.password-settings h3 {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.password-btn {
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #fff !important;
+    font-weight: 600;
+    user-select: none;
+    width: 50%;
+    border: none;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 150ms ease;
+    height: 50px;
+    border-radius: 8px;
+}
+.password-btn:active {
+    transform: translateY(-3%);
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.08);
+}
